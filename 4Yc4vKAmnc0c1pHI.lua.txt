@@ -1,0 +1,1046 @@
+-- ts file was generated at discord.gg/b8QsvrMCNq
+
+local fenv = getfenv()
+local cyp3 = game:GetService('Players')
+
+game:GetService('TeleportService')
+
+local cyp7 = game:GetService('ReplicatedStorage')
+local _cyp3LocalPlayer8 = cyp3.LocalPlayer
+
+cyp7.Remotes:WaitForChild('BuyCase')
+
+local cyp13 = game:GetService('RunService')
+
+game:GetService('VirtualUser')
+game:GetService('Workspace')
+
+local cyp19 = game:GetService('UserInputService')
+local cyp21 = game:GetService('ReplicatedStorage')
+local cyp24 = cyp21.Modules:WaitForChild('Item')
+
+require(cyp24)
+cyp21.Remotes:WaitForChild('TradeItem')
+cyp21.Remotes:WaitForChild('Trade')
+
+local _ = _cyp3LocalPlayer8.PlayerGui.Main.MainTradingFrame
+
+_cyp3LocalPlayer8:WaitForChild('SkinsFolder')
+cyp21.Remotes:WaitForChild('EquipItem')
+
+local cyp41 = _cyp3LocalPlayer8:WaitForChild('Backpack')
+local cyp43 = _cyp3LocalPlayer8:GetMouse()
+
+game:GetService('UserInputService')
+game:GetService('TweenService')
+cyp3.LocalPlayer:WaitForChild('PlayerGui')
+game:GetService('HttpService')
+
+local cyp54 = game:GetService('Players')
+local _ = cyp54.LocalPlayer
+
+game:GetService('RunService')
+cyp21.Remotes:WaitForChild('TradeItem')
+
+local cyp62 = game:GetService('Players')
+
+game:GetService('HttpService')
+game:GetService('UserInputService')
+task.wait(1)
+
+local _ = cyp62.LocalPlayer
+local cyp69 = game:HttpGet('https://sirius.menu/rayfield')
+local cyp73 = loadstring(cyp69)():CreateWindow({
+    LoadingTitle = 'FastDex - MVS',
+    Name = 'FastDex - MVS - By FrannnDev',
+    KeySystem = false,
+    LoadingSubtitle = 'By ! FrannnDev (DecentHolograms)',
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = 'FastDexConfig',
+        FileName = 'MVSFastDex',
+    },
+})
+
+_G.BlockClick = false
+fenv.updateWeaponScripts = function() end
+fenv.initializeWeaponScript = function()
+    local cyp80 = _cyp3LocalPlayer8.Character:GetChildren()
+
+    for _81, _81_2 in ipairs(cyp80)do
+        _81_2:IsA('Tool')
+        _81_2:FindFirstChild('fire')
+        _81_2.AncestryChanged:Connect(function()
+            task.wait()
+
+            local _ = _81_2 == _81_2
+            local _ = _81_2.Parent
+            local _ = _81_2.Parent
+
+            _81_2:IsDescendantOf(game)
+
+            local _ = _81_2.Parent
+            local cyp97 = _81_2:GetDescendants()
+
+            for _98, _98_2 in ipairs(cyp97)do
+                _98_2:IsA('Script')
+
+                local _ = _98_2.Disabled
+
+                _98_2:IsDescendantOf(_81_2)
+
+                _98_2.Disabled = false
+            end
+
+            local cyp105 = _81_2:FindFirstChild('Script')
+
+            cyp105:IsA('Script')
+
+            local _ = cyp105.Disabled
+
+            cyp105.Disabled = false
+
+            local cyp110 = _81_2:FindFirstChild('LocalScript')
+
+            cyp110:IsA('Script')
+
+            local _ = cyp110.Disabled
+
+            cyp110.Disabled = false
+
+            local cyp115 = _81_2:FindFirstChild('Client')
+
+            cyp115:IsA('Script')
+
+            local _ = cyp115.Disabled
+
+            cyp115.Disabled = false
+
+            local cyp120 = _81_2:FindFirstChild('GunScript')
+
+            cyp120:IsA('Script')
+
+            local _ = cyp120.Disabled
+
+            cyp120.Disabled = false
+        end)
+        _81_2:GetPropertyChangedSignal('Parent'):Connect(function()
+            task.wait()
+
+            local _ = _81_2 == _81_2
+            local _ = _81_2.Parent
+            local _ = _81_2.Parent
+
+            _81_2:IsDescendantOf(game)
+
+            local _ = _81_2.Parent
+            local cyp136 = _81_2:GetDescendants()
+
+            for _137, _137_2 in ipairs(cyp136)do
+                _137_2:IsA('Script')
+
+                local _ = _137_2.Disabled
+
+                _137_2:IsDescendantOf(_81_2)
+
+                _137_2.Disabled = false
+            end
+
+            local cyp144 = _81_2:FindFirstChild('Script')
+
+            cyp144:IsA('Script')
+
+            local _ = cyp144.Disabled
+
+            cyp144.Disabled = false
+
+            local cyp149 = _81_2:FindFirstChild('LocalScript')
+
+            cyp149:IsA('Script')
+
+            local _ = cyp149.Disabled
+
+            cyp149.Disabled = false
+
+            local cyp154 = _81_2:FindFirstChild('Client')
+
+            cyp154:IsA('Script')
+
+            local _ = cyp154.Disabled
+
+            cyp154.Disabled = false
+
+            local cyp159 = _81_2:FindFirstChild('GunScript')
+
+            cyp159:IsA('Script')
+
+            local _ = cyp159.Disabled
+
+            cyp159.Disabled = false
+        end)
+
+        local _ = _81_2.Parent
+        local _ = _81_2.Parent
+
+        _81_2:IsDescendantOf(game)
+
+        local _ = _81_2.Parent
+        local cyp169 = _81_2:GetDescendants()
+
+        for _170, _170_2 in ipairs(cyp169)do
+            _170_2:IsA('Script')
+
+            local _ = _170_2.Disabled
+
+            _170_2:IsDescendantOf(_81_2)
+
+            _170_2.Disabled = false
+        end
+
+        local cyp177 = _81_2:FindFirstChild('Script')
+
+        cyp177:IsA('Script')
+
+        local _ = cyp177.Disabled
+
+        cyp177.Disabled = false
+
+        local cyp182 = _81_2:FindFirstChild('LocalScript')
+
+        cyp182:IsA('Script')
+
+        local _ = cyp182.Disabled
+
+        cyp182.Disabled = false
+
+        local cyp187 = _81_2:FindFirstChild('Client')
+
+        cyp187:IsA('Script')
+
+        local _ = cyp187.Disabled
+
+        cyp187.Disabled = false
+
+        local cyp192 = _81_2:FindFirstChild('GunScript')
+
+        cyp192:IsA('Script')
+
+        local _ = cyp192.Disabled
+
+        cyp192.Disabled = false
+
+        return true
+    end
+end
+
+local cyp197 = game:GetService('RunService')
+
+cyp197.Heartbeat:Connect(function(_201)
+    math.max(0, (0 - (100 * _201)))
+end)
+
+fenv.updateBlockState = function() end
+fenv.SetClickShootState = function(_206)
+    local _ = _81_2.Parent
+
+    _81_2:IsDescendantOf(game)
+
+    local _ = _81_2.Parent
+    local cyp212 = _81_2:GetDescendants()
+
+    for _213, _213_2 in ipairs(cyp212)do
+        _213_2:IsA('Script')
+
+        local _ = _213_2.Disabled
+
+        _213_2:IsDescendantOf(_81_2)
+
+        _213_2.Disabled = true
+    end
+
+    local cyp220 = _81_2:FindFirstChild('Script')
+
+    cyp220:IsA('Script')
+
+    local _ = cyp220.Disabled
+
+    cyp220.Disabled = true
+
+    local cyp225 = _81_2:FindFirstChild('LocalScript')
+
+    cyp225:IsA('Script')
+
+    local _ = cyp225.Disabled
+
+    cyp225.Disabled = true
+
+    local cyp230 = _81_2:FindFirstChild('Client')
+
+    cyp230:IsA('Script')
+
+    local _ = cyp230.Disabled
+
+    cyp230.Disabled = true
+
+    local cyp235 = _81_2:FindFirstChild('GunScript')
+
+    cyp235:IsA('Script')
+
+    local _ = cyp235.Disabled
+
+    cyp235.Disabled = true
+end
+fenv.SetAutoShootState = function(_239)
+    local _ = _81_2.Parent
+
+    _81_2:IsDescendantOf(game)
+
+    local _ = _81_2.Parent
+    local cyp245 = _81_2:GetDescendants()
+
+    for _246, _246_2 in ipairs(cyp245)do
+        _246_2:IsA('Script')
+
+        local _ = _246_2.Disabled
+
+        _246_2:IsDescendantOf(_81_2)
+
+        _246_2.Disabled = true
+    end
+
+    local cyp253 = _81_2:FindFirstChild('Script')
+
+    cyp253:IsA('Script')
+
+    local _ = cyp253.Disabled
+
+    cyp253.Disabled = true
+
+    local cyp258 = _81_2:FindFirstChild('LocalScript')
+
+    cyp258:IsA('Script')
+
+    local _ = cyp258.Disabled
+
+    cyp258.Disabled = true
+
+    local cyp263 = _81_2:FindFirstChild('Client')
+
+    cyp263:IsA('Script')
+
+    local _ = cyp263.Disabled
+
+    cyp263.Disabled = true
+
+    local cyp268 = _81_2:FindFirstChild('GunScript')
+
+    cyp268:IsA('Script')
+
+    local _ = cyp268.Disabled
+
+    cyp268.Disabled = true
+end
+
+_cyp3LocalPlayer8.CharacterAdded:Connect(function(_275)
+    _275:WaitForChild('Humanoid', 5)
+    _275:WaitForChild('HumanoidRootPart', 3)
+    task.wait(1.5)
+
+    local cyp282 = _cyp3LocalPlayer8.Character:GetChildren()
+
+    for _283, _283_2 in ipairs(cyp282)do
+        _283_2:IsA('Tool')
+        _283_2:FindFirstChild('fire')
+        _283_2.AncestryChanged:Connect(function()
+            task.wait()
+
+            local _ = _283_2 == _283_2
+            local _ = _283_2.Parent
+            local _ = _283_2.Parent
+
+            _283_2:IsDescendantOf(game)
+
+            local _ = _283_2.Parent
+            local cyp299 = _283_2:GetDescendants()
+
+            for _300, _300_2 in ipairs(cyp299)do
+                _300_2:IsA('Script')
+
+                local _ = _300_2.Disabled
+
+                _300_2:IsDescendantOf(_283_2)
+
+                _300_2.Disabled = true
+            end
+
+            local cyp307 = _283_2:FindFirstChild('Script')
+
+            cyp307:IsA('Script')
+
+            local _ = cyp307.Disabled
+
+            cyp307.Disabled = true
+
+            local cyp312 = _283_2:FindFirstChild('LocalScript')
+
+            cyp312:IsA('Script')
+
+            local _ = cyp312.Disabled
+
+            cyp312.Disabled = true
+
+            local cyp317 = _283_2:FindFirstChild('Client')
+
+            cyp317:IsA('Script')
+
+            local _ = cyp317.Disabled
+
+            cyp317.Disabled = true
+
+            local cyp322 = _283_2:FindFirstChild('GunScript')
+
+            cyp322:IsA('Script')
+
+            local _ = cyp322.Disabled
+
+            cyp322.Disabled = true
+        end)
+        _283_2:GetPropertyChangedSignal('Parent'):Connect(function()
+            task.wait()
+
+            local _ = _283_2 == _283_2
+            local _ = _283_2.Parent
+            local _ = _283_2.Parent
+
+            _283_2:IsDescendantOf(game)
+
+            local _ = _283_2.Parent
+            local cyp338 = _283_2:GetDescendants()
+
+            for _339, _339_2 in ipairs(cyp338)do
+                _339_2:IsA('Script')
+
+                local _ = _339_2.Disabled
+
+                _339_2:IsDescendantOf(_283_2)
+
+                _339_2.Disabled = true
+            end
+
+            local cyp346 = _283_2:FindFirstChild('Script')
+
+            cyp346:IsA('Script')
+
+            local _ = cyp346.Disabled
+
+            cyp346.Disabled = true
+
+            local cyp351 = _283_2:FindFirstChild('LocalScript')
+
+            cyp351:IsA('Script')
+
+            local _ = cyp351.Disabled
+
+            cyp351.Disabled = true
+
+            local cyp356 = _283_2:FindFirstChild('Client')
+
+            cyp356:IsA('Script')
+
+            local _ = cyp356.Disabled
+
+            cyp356.Disabled = true
+
+            local cyp361 = _283_2:FindFirstChild('GunScript')
+
+            cyp361:IsA('Script')
+
+            local _ = cyp361.Disabled
+
+            cyp361.Disabled = true
+        end)
+
+        local _ = _283_2.Parent
+        local _ = _283_2.Parent
+
+        _283_2:IsDescendantOf(game)
+
+        local _ = _283_2.Parent
+        local cyp371 = _283_2:GetDescendants()
+
+        for _372, _372_2 in ipairs(cyp371)do
+            _372_2:IsA('Script')
+
+            local _ = _372_2.Disabled
+
+            _372_2:IsDescendantOf(_283_2)
+
+            _372_2.Disabled = true
+        end
+
+        local cyp379 = _283_2:FindFirstChild('Script')
+
+        cyp379:IsA('Script')
+
+        local _ = cyp379.Disabled
+
+        cyp379.Disabled = true
+
+        local cyp384 = _283_2:FindFirstChild('LocalScript')
+
+        cyp384:IsA('Script')
+
+        local _ = cyp384.Disabled
+
+        cyp384.Disabled = true
+
+        local cyp389 = _283_2:FindFirstChild('Client')
+
+        cyp389:IsA('Script')
+
+        local _ = cyp389.Disabled
+
+        cyp389.Disabled = true
+
+        local cyp394 = _283_2:FindFirstChild('GunScript')
+
+        cyp394:IsA('Script')
+
+        local _ = cyp394.Disabled
+
+        cyp394.Disabled = true
+
+        local cyp399 = game:GetService('UserInputService')
+        local _ = cyp399.TouchEnabled
+        local _ = cyp399.KeyboardEnabled
+    end
+end)
+_cyp3LocalPlayer8.CharacterAdded:Connect(function(_405)
+    _405.ChildAdded:Connect(function(_409)
+        _409:IsA('Tool')
+        _409:FindFirstChild('fire')
+        task.wait(0.10000000000002274)
+        _409.AncestryChanged:Connect(function()
+            task.wait()
+
+            local _ = _409 == _409
+            local _ = _409.Parent
+        end)
+        _409:GetPropertyChangedSignal('Parent'):Connect(function() end)
+
+        local _ = _409.Parent
+
+        _409:IsDescendantOf(game)
+
+        local _ = _409.Parent
+        local cyp431 = _409:GetDescendants()
+
+        for _432, _432_2 in ipairs(cyp431)do
+            _432_2:IsA('Script')
+
+            local _ = _432_2.Disabled
+
+            _432_2:IsDescendantOf(_409)
+
+            _432_2.Disabled = true
+        end
+
+        local cyp439 = _409:FindFirstChild('Script')
+
+        cyp439:IsA('Script')
+
+        local _ = cyp439.Disabled
+
+        cyp439.Disabled = true
+
+        local cyp444 = _409:FindFirstChild('LocalScript')
+
+        cyp444:IsA('Script')
+
+        local _ = cyp444.Disabled
+
+        cyp444.Disabled = true
+
+        local cyp449 = _409:FindFirstChild('Client')
+
+        cyp449:IsA('Script')
+
+        local _ = cyp449.Disabled
+
+        cyp449.Disabled = true
+
+        local cyp454 = _409:FindFirstChild('GunScript')
+
+        cyp454:IsA('Script')
+
+        local _ = cyp454.Disabled
+
+        cyp454.Disabled = true
+    end)
+    _405.ChildRemoved:Connect(function(_461) end)
+end)
+
+local cyp463 = game:GetService('RunService')
+
+cyp463.Heartbeat:Connect(function() end)
+workspace.DescendantRemoving:Connect(function(_471) end)
+cyp19.InputBegan:Connect(function(_475) end)
+
+local cyp477 = cyp73:CreateTab('AimAssist', 15403121940)
+
+cyp477:CreateLabel('If you do not know what this is, do not touch these options')
+cyp477:CreateInput({
+    Name = 'Aim Distance',
+    CurrentValue = '200',
+    PlaceholderText = '1 - 10000',
+    Callback = function(_482) end,
+    RemoveTextAfterFocusLost = false,
+})
+cyp477:CreateInput({
+    Name = 'Block Shoot Key',
+    CurrentValue = Enum.KeyCode.F.Name,
+    PlaceholderText = 'Example: F, G, H',
+    Callback = function(_486) end,
+    RemoveTextAfterFocusLost = false,
+})
+cyp477:CreateSlider({
+    Name = 'Aim Assist Strength',
+    Suffix = '%',
+    CurrentValue = 70,
+    Increment = 5,
+    Range = {
+        [1] = 0,
+        [2] = 100,
+    },
+    Callback = function(_489) end,
+})
+cyp477:CreateSlider({
+    Name = 'Base Raycast Count',
+    CurrentValue = 5,
+    Increment = 1,
+    Range = {
+        [1] = 1,
+        [2] = 15,
+    },
+    Callback = function(_492) end,
+})
+cyp477:CreateSlider({
+    Name = 'Camera Detection Threshold',
+    Suffix = '%',
+    CurrentValue = 10,
+    Increment = 1,
+    Range = {
+        [1] = 0,
+        [2] = 50,
+    },
+    Callback = function(_495) end,
+})
+cyp477:CreateToggle({
+    CurrentValue = false,
+    Name = 'Allow Backwards Shooting',
+    Callback = function(_498) end,
+})
+cyp477:CreateToggle({
+    CurrentValue = false,
+    Name = 'Debug Mode',
+    Callback = function(_501) end,
+})
+cyp477:CreateLabel('Mobile Settings & PC')
+cyp477:CreateToggle({
+    CurrentValue = false,
+    Name = 'Mobile UI',
+    Callback = function(_506) end,
+})
+cyp477:CreateToggle({
+    CurrentValue = false,
+    Name = 'Hide Mobile Button',
+    Callback = function(_509) end,
+})
+cyp477:CreateToggle({
+    CurrentValue = false,
+    Name = 'Disable PC Notifications',
+    Callback = function(_512) end,
+})
+cyp477:CreateLabel('Shoot Types (For Guns)')
+cyp477:CreateToggle({
+    CurrentValue = false,
+    Name = 'Click Shoot',
+    Callback = function(_517) end,
+})
+cyp477:CreateToggle({
+    CurrentValue = false,
+    Name = 'Auto Shoot',
+    Callback = function(_520) end,
+})
+cyp41.ChildRemoved:Connect(function(_524) end)
+cyp41.ChildAdded:Connect(function(_528) end)
+task.spawn(function() end)
+task.spawn(function() end)
+cyp43.Button1Down:Connect(function() end)
+task.spawn(function() end)
+
+local cyp543 = game:GetService('UserInputService')
+local _ = cyp543.TouchEnabled
+local _ = cyp543.KeyboardEnabled
+local cyp547 = cyp73:CreateTab('Invisibility', 15402913667)
+
+_G.InvisibilityEnabled = true
+
+local _LocalPlayer549 = game.Players.LocalPlayer
+local _Character550 = _LocalPlayer549.Character
+
+_Character550.Archivable = true
+
+cyp547:CreateLabel('Auto-Give Cloak - Keeps cloak in backpack automatically')
+cyp547:CreateToggle({
+    CurrentValue = false,
+    Callback = function(_555) end,
+    Name = 'Auto-Give Cloak',
+    Flag = 'AutoGiveCloak',
+})
+cyp547:CreateLabel('Invisibility Cloak - Press button to get the cloak tool')
+cyp547:CreateButton({
+    Name = 'Get Invisibility Cloak',
+    Callback = function() end,
+})
+cyp547:CreateButton({
+    Name = 'Remove Cloak',
+    Callback = function() end,
+})
+task.spawn(function() end)
+_LocalPlayer549.CharacterAdded:Connect(function(_570) end)
+
+local cyp572 = cyp73:CreateTab('Kill', 15403116835)
+
+cyp572:CreateLabel('Kill All Players')
+cyp572:CreateButton({
+    Name = 'Kill Everyone (Add Winned Rounds - Depending Alive Enemies)',
+    Callback = function() end,
+})
+cyp572:CreateButton({
+    Name = 'Kill Everyone (Gun In Backpack) (Does Not Add Won Rounds)',
+    Callback = function() end,
+})
+cyp572:CreateToggle({
+    Image = 15403175166,
+    Name = 'Kill Spam (Add Winned Rounds - Depending Alive Enemies)',
+    CurrentValue = false,
+    Callback = function(_583) end,
+    Flag = 'KillSpam',
+})
+cyp572:CreateLabel('Kill Single Player')
+
+local cyp587 = cyp62:GetPlayers()
+
+for _588, _588_2 in pairs(cyp587)do
+    local _ = _588_2 == _cyp3LocalPlayer8
+end
+
+cyp572:CreateDropdown({
+    Name = 'Select Player',
+    CurrentOption = {},
+    Flag = 'PlayerDropdown',
+    Callback = function(_593) end,
+    Options = {
+        [1] = _588_2.Name,
+    },
+})
+cyp62.PlayerAdded:Connect(function() end)
+cyp62.PlayerRemoving:Connect(function() end)
+cyp572:CreateButton({
+    Name = 'Kill Player',
+    Callback = function() end,
+})
+
+local cyp606 = cyp73:CreateTab('Inventory', 15403400185)
+
+cyp606:CreateLabel('View Player Inventory')
+
+local cyp610 = cyp62:GetPlayers()
+
+for _611, _611_2 in ipairs(cyp610) do end
+
+cyp606:CreateDropdown({
+    Name = 'Select Player',
+    CurrentOption = {},
+    Flag = 'InventoryDropdown',
+    Callback = function(_615) end,
+    Options = {
+        [1] = _611_2.Name,
+    },
+})
+cyp62.PlayerAdded:Connect(function() end)
+cyp62.PlayerRemoving:Connect(function() end)
+cyp606:CreateButton({
+    Name = 'View Inventory',
+    Callback = function() end,
+})
+cyp606:CreateLabel('Fix Trading Inventory')
+cyp606:CreateButton({
+    Name = 'Trade Fix',
+    Callback = function() end,
+})
+
+local cyp633 = cyp73:CreateTab('Boxes', 15403012566)
+
+cyp633:CreateLabel('Open Boxes')
+cyp633:CreateDropdown({
+    Callback = function(_638) end,
+    Options = {
+        [1] = 'Knife Box #1',
+        [2] = 'Knife Box #2',
+        [3] = 'Gun Box #1',
+        [4] = 'Gun Box #2',
+        [5] = 'Mythic Box #1',
+        [6] = 'Mythic Box #2',
+        [7] = 'Mythic Box #3',
+        [8] = 'Mythic Box #4',
+    },
+    Name = 'Select Box',
+    CurrentOption = {},
+})
+cyp633:CreateButton({
+    Name = 'Open Selected Box',
+    Callback = function() end,
+})
+
+local cyp643 = cyp73:CreateTab('Equip', 15403144723)
+
+cyp643:CreateLabel('Equip Weapons')
+
+local cyp649 = _cyp3LocalPlayer8:WaitForChild('SkinsFolder'):GetChildren()
+
+for _650, _650_2 in pairs(cyp649) do end
+
+cyp643:CreateDropdown({
+    Callback = function(_654) end,
+    Options = {
+        [1] = _650_2.Name,
+    },
+    Name = 'Select Weapon',
+    CurrentOption = {},
+})
+_cyp3LocalPlayer8.SkinsFolder.ChildAdded:Connect(function() end)
+_cyp3LocalPlayer8.SkinsFolder.ChildRemoved:Connect(function() end)
+cyp643:CreateDropdown({
+    Callback = function(_667) end,
+    Options = {
+        [1] = 'Knife',
+        [2] = 'Gun',
+    },
+    Name = 'Select Type',
+    CurrentOption = {},
+})
+cyp643:CreateButton({
+    Name = 'Equip Selected',
+    Callback = function() end,
+})
+
+local cyp672 = cyp73:CreateTab('Hitbox', 15403203770)
+
+cyp672:CreateLabel('Hitbox Expander')
+
+_G.HeadSize = nil
+_G.Disabled = false
+_G.Transparency = nil
+_G.SelectedColor = nil
+_G.Originals = {}
+_G.AntiWall = false
+
+local cyp676 = cyp62:GetPlayers()
+
+for _677, _677_2 in pairs(cyp676)do
+    local _ = _677_2.Name
+
+    _677_2.CharacterAdded:Connect(function() end)
+
+    local _ = _677_2.Character
+    local _ = _677_2 == _cyp3LocalPlayer8
+
+    _677_2.Character:FindFirstChild('HumanoidRootPart')
+
+    local _ = _677_2.Name
+end
+
+cyp62.PlayerAdded:Connect(function(_692) end)
+task.spawn(function() end)
+task.spawn(function() end)
+cyp672:CreateToggle({
+    CurrentValue = false,
+    Name = 'Enable Hitbox',
+    Callback = function(_701) end,
+})
+cyp672:CreateToggle({
+    CurrentValue = false,
+    Name = 'Anti Wall Shot',
+    Callback = function(_704) end,
+})
+cyp672:CreateDropdown({
+    Callback = function(_707) end,
+    Options = {
+        [1] = 'Gray',
+        [2] = 'Bright red',
+        [3] = 'Bright blue',
+        [4] = 'Bright yellow',
+        [5] = 'Bright green',
+        [6] = 'White',
+        [7] = 'Black',
+    },
+    Name = 'Choose Color',
+    CurrentOption = {},
+})
+cyp672:CreateInput({
+    Callback = function(_710) end,
+    PlaceholderText = '1 - 50',
+    Name = 'Head Size',
+    RemoveTextAfterFocusLost = false,
+})
+cyp672:CreateInput({
+    Callback = function(_713) end,
+    PlaceholderText = '0 - 1',
+    Name = 'Transparency',
+    RemoveTextAfterFocusLost = false,
+})
+
+local cyp715 = cyp73:CreateTab('Trading', 15403180857)
+
+cyp715:CreateLabel([[Trade Scam - Add Fake Items only if you have 1 item of the added]])
+
+local cyp721 = _cyp3LocalPlayer8:WaitForChild('SkinsFolder'):GetChildren()
+
+for _722, _722_2 in pairs(cyp721) do end
+
+cyp715:CreateDropdown({
+    Callback = function(_726) end,
+    Options = {
+        [1] = _722_2.Name,
+    },
+    Name = 'Select Weapon',
+    CurrentOption = {},
+})
+_cyp3LocalPlayer8.SkinsFolder.ChildAdded:Connect(function() end)
+_cyp3LocalPlayer8.SkinsFolder.ChildRemoved:Connect(function() end)
+cyp715:CreateInput({
+    PlaceholderText = 'Ex: 5',
+    Name = 'Amount to Add',
+    Callback = function(_739) end,
+})
+cyp715:CreateInput({
+    PlaceholderText = 'Ex: 3',
+    Name = 'Amount to Remove',
+    Callback = function(_742) end,
+})
+cyp715:CreateButton({
+    Name = 'Add Fake Items',
+    Callback = function() end,
+})
+cyp715:CreateButton({
+    Name = 'Remove Fake Items',
+    Callback = function() end,
+})
+cyp715:CreateLabel('Spam Trade Requests')
+
+local cyp752 = cyp62:GetPlayers()
+
+for _753, _753_2 in ipairs(cyp752)do
+    local _ = _753_2 == _cyp3LocalPlayer8
+end
+
+cyp715:CreateDropdown({
+    Name = 'Select Player',
+    CurrentOption = {},
+    Flag = 'TraderDropdown',
+    Callback = function(_758) end,
+    Options = {
+        [1] = 'None',
+        [2] = _753_2.Name,
+    },
+})
+cyp62.PlayerAdded:Connect(function() end)
+cyp62.PlayerRemoving:Connect(function() end)
+cyp715:CreateButton({
+    Name = 'Spam 50 Trades',
+    Callback = function() end,
+})
+cyp715:CreateLabel('Trade Utils')
+cyp715:CreateToggle({
+    CurrentValue = false,
+    Name = 'Break Limit to 200 Items',
+    Callback = function(_774) end,
+})
+cyp715:CreateLabel('Give 1 of each item')
+cyp715:CreateInput({
+    PlaceholderText = 'Ex: 50',
+    Name = 'Minimum items of each one',
+    Callback = function(_779) end,
+})
+cyp715:CreateInput({
+    PlaceholderText = 'Ex: 100',
+    Name = 'Amount to give',
+    Callback = function(_782) end,
+})
+cyp715:CreateButton({
+    Name = 'Give',
+    Callback = function() end,
+})
+
+local cyp787 = cyp73:CreateTab('ESP', 15403375395)
+
+cyp787:CreateLabel('ESP Enemy Team')
+cyp787:CreateToggle({
+    CurrentValue = false,
+    Name = 'Enable ESP',
+    Callback = function(_792) end,
+})
+cyp13.RenderStepped:Connect(function() end)
+cyp62.PlayerAdded:Connect(function(_800) end)
+cyp62.PlayerRemoving:Connect(function(_804) end)
+_cyp3LocalPlayer8.CharacterAdded:Connect(function() end)
+
+local cyp810 = cyp73:CreateTab('Streak Farm', 15402939288)
+
+cyp810:CreateLabel('User AFK Side')
+cyp810:CreateButton({
+    Name = 'User Side Start',
+    Callback = function() end,
+})
+cyp810:CreateLabel('AFK Streak Farmer')
+
+local cyp819 = cyp62:GetPlayers()
+
+for _820, _820_2 in pairs(cyp819)do
+    local _ = _820_2 == _cyp3LocalPlayer8
+end
+
+cyp810:CreateDropdown({
+    Callback = function(_825) end,
+    Options = {
+        [1] = _820_2.Name,
+    },
+    Name = 'Select Player',
+    CurrentOption = {},
+})
+cyp62.PlayerAdded:Connect(function() end)
+cyp62.PlayerRemoving:Connect(function() end)
+cyp810:CreateButton({
+    Name = 'AFK Streak Start',
+    Callback = function() end,
+})
+
+local cyp838 = cyp73:CreateTab('Misc', 15403059251)
+
+cyp838:CreateLabel([[If you reset in the match, enemies can't kill you, the game doesn't count it as a death. (But your character will be disarmed)]])
+cyp838:CreateButton({
+    Name = 'Enable Reset',
+    Callback = function() end,
+})
+cyp838:CreateLabel('Server Things')
+cyp838:CreateButton({
+    Name = 'Change Server',
+    Callback = function() end,
+})
+cyp838:CreateLabel('FastDex UI Phone')
+cyp838:CreateButton({
+    Name = 'Hide Open Button',
+    Callback = function() end,
+})
